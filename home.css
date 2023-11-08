@@ -1,0 +1,91 @@
+.titel
+{
+    background-color: #3399CC;
+   padding: 1px;
+
+}
+.titel h1
+{
+    font-size: 25px;
+    color:#FFFFFF ;
+    font-weight: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-left: 21px;
+}
+
+.navbar
+{
+    background-color: #333333;
+ 
+}
+
+.navbar .navbar-items ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    display:flex;
+    color:#FFFFFF;
+}
+
+.navbar-items ul li:hover
+{
+    background-color: #FF9900;
+    color:black;
+    border-left:4px solid #FFFFFF;
+}
+
+.navbar-items a:hover
+{
+    color:black;
+}
+
+.navbar ul li
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-items a {
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 10px 21px 10px 21px;
+} 
+
+.news
+{
+    border: 2px solid #D2D2D2;
+    margin-top: 24px;
+    padding: 10px;
+    width: 982px;
+    font-family: sans-serif;
+}
+
+
+.content
+{
+    margin-left: 30px;
+}
+
+.Welcome
+{
+    width: 1289px;
+}
+
+.Welcome h2
+{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.Welcome p
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333333;
+
+}

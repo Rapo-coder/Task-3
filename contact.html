@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="titel">
+                <h1>TECHNOVERT</h1>
+            </div>
+
+            <div class="navbar">
+                <div class="navbar-items">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="careers.html">CAREERS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+                <form id="contactForm" class="form" onsubmit="validateForm()" >
+                    <div class="form-fields Name">
+                        <label for="name">My Name</label>
+                        <input type="text" id="name" class="name" required>
+                        <span id="1">*</span> 
+                    </div>
+        
+                    <div class="form-fields Email" >
+                        <label for="email">My Email Address:</label>
+                        <input type="email" id="email" class="email" required>
+                        <span id="2">*</span> 
+                    </div>
+                    
+                    <div class="form-fields Telephone">
+                        <label for="telephone">My Telephone Number:</label>
+                        <input type="tel" id="telephone" class="telephone" >
+                    </div>
+
+                    <div class="form-fields Organaixation">
+                        <label for="organization">My Organisation Name:</label>
+                        <input type="text" id="organization" class="organization">
+                        <span id="3">*</span> 
+                    </div>
+
+                    <div class="form-fields city">
+                        <label for="city">My City:</label>
+                        <input type="text" id="city" class="city">
+                    </div>
+
+                    <div class="form-fields state">                    
+                        <label for="state">My State or Province:</label>
+                        <select id="state" class="state" onchange="updatePromotionCode()">
+                            <option value="state">My State or Province</option>
+                            <option value="state1">Andhra Pradesh</option>
+                            <option value="state2">Telanagana</option>
+                            <option value="state3">Kerala</option>
+                        </select>
+                    </div>
+
+                    <div class="promotion form-fields">
+                        <label for="promotion-code">Promotion Code:</label>
+                        <input type="text" id="promotion-code" />
+                      </div>
+
+
+                    <div class="contact-me form-fields">
+                        <p>Please Contact Me By:</p>
+                        <div class="radios">
+                          <label><input type="radio" name="contact-me" value="email" />Email</label>
+                          <label><input type="radio" name="contact-me" value="phone" />Phone</label>
+                          <label
+                            ><input type="radio" name="contact-me" value="both" />Both</label>
+                        </div>
+                      </div>
+
+                      <div class="gender form-fields">
+                        <p>Gender:</p>
+                        <div class="radios" id="user_gender" onchange="displayGreeting()">
+                          <label><input type="radio" name="gender" value="male" />Male</label>
+                          <label>
+                            <input type="radio" name="gender" value="female" oninput=""/>Female
+                          </label>
+                        </div>
+                      </div>
+
+
+                    <div class="info">
+                        <p>Optional Information:</p><br>
+                        <p><i>This information is optional but it help us to serve yo better.</i></p>                        
+                    </div>
+
+                    <div class="form-fields website">
+                        <label  for="website">My Website Adress is:</label>
+                        <input type="text" id="website" class="website">
+                    </div>
+                      
+                    <div class="form-fields more-about">
+                        <p>Tell Us More About Your Organisation:</p>
+                        <textarea  rows="4" cols="50" class="more-about"></textarea>
+                    </div>
+                    <div class="form-fields know-more">
+                        <label for="konw-more">What I'd really like to know is:</label>
+                        <textarea rows="4" cols="50" class="konw-more"></textarea>
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" onclick="validateForm()" value="sendMessage"> 
+                        <input type="reset"  onclick="clear()" value="clear">
+                    </div>
+                </form>
+        </div>
+        <script src="contact.js"></script>
+    </body>
+</html>
+
+   

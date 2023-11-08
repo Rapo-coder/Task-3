@@ -1,0 +1,164 @@
+.titel
+{
+    background-color: #3399CC;
+   padding: 1px;
+}
+
+.titel h1
+{
+    font-size: 25px;
+    color:#FFFFFF ;
+    font-weight: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-left: 21px;
+}
+
+.navbar
+{
+    background-color: #333333;
+ 
+}
+
+.navbar .navbar-items ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    display:flex;
+    color:#FFFFFF;
+}
+
+.navbar-items ul li:hover
+{
+    background-color: #FF9900;
+    color:black;
+    border-left:4px solid #FFFFFF;
+
+}
+
+.navbar ul li
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-items a {
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 10px 21px 10px 21px;
+} 
+.careers-form-content
+{
+    margin-left: 34px;
+    width: 1001px;
+}
+    
+.careers-form-content h1
+{
+    font-weight: normal;
+    font-family: 'Tw Cen MT';
+}
+
+.careers-form-contentp
+{  
+    font-family: sans-serif;
+
+}
+.careers
+{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.career-form
+{
+    padding: 28px;
+    margin-left: 34px;
+}
+
+.form-group
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type=text], select{
+   padding: 3px;
+   margin-top: 6px;
+   margin-bottom: 16px;
+}
+label{
+   flex-direction: column;
+}
+.name
+{
+   margin-left: 10em;
+}
+.email
+{
+    margin-left: 10em;
+}
+.role
+{
+    margin-left: 5.9em;
+}
+.upload
+{
+    margin-left: 4.1em;
+}
+
+.browse
+{
+    padding-left:20px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color:black;    
+}
+    
+.browse input
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 2em;
+    padding-left: 23px;
+    border: 1px solid #9A9A9A;
+     
+}
+    
+.browse input
+{
+    background-color: #EEEEEE;
+    font-weight:bold;
+}    
+
+input[type=submit] 
+{
+    background-color: #EEEEEE;
+    color:black;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+.submit
+{
+    padding-left:10.9em;
+    
+
+}
+.submit button
+{
+    border: 1px solid #ccc;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5em;
+    padding-left:15px;
+}
+
+
+

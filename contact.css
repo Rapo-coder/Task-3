@@ -1,0 +1,149 @@
+.titel
+{
+    background-color: #3399CC;
+   padding: 1px;
+}
+
+.titel h1
+{
+    font-size: 25px;
+    color:#FFFFFF ;
+    font-weight: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-left: 21px;
+}
+
+.navbar
+{
+    background-color: #333333;
+ 
+}
+
+.navbar .navbar-items ul
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    display:flex;
+    color:#FFFFFF;
+}
+
+.navbar-items ul li:hover
+{
+    background-color: #FF9900;
+    color:black;
+    border-left:4px solid #FFFFFF;
+
+}
+
+.navbar ul li
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-items a {
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 10px 21px 10px 21px;
+} 
+
+span{
+    color: red;
+  }
+form 
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    justify-content: flex-start;
+    padding: 0 44px;
+    font-family: "Tuff Bold";
+    font-size: 16px;
+    font-weight: bold;
+}
+.form .form-fields {
+    display: flex;
+  }
+
+.form .form-fields label{
+    width:218px;
+}
+.form-fields input{
+    border-bottom: #3D3D3D 1px solid;
+    border-right: #6A6A6A 1px solid;
+  }
+
+  .gender p {
+    width: 212px;
+  }
+  p{
+    margin: 0;
+  }
+  .info p i
+  {
+    font-weight: lighter;
+    font-family: "frederik italic";
+    font-size: 16px;
+  }
+  #state{
+    padding: 2px 19px 4px 5px;
+    border-bottom: #3D3D3D 1px solid;
+    border-right: #6A6A6A 1px solid;
+  }
+  .contact-me {
+    display: flex;
+    align-items: center;
+  }
+  .contact-me p{
+    width: 212px;
+  }
+.form .radios
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+
+}
+.know-more, .more-about {
+    flex-direction: column;
+    gap:5px 0;
+  }
+
+
+textarea{
+border: 1px solid #D6D2CA;
+    padding: 28px 36px 19px 38px;
+    width: 300px;
+    overflow-y: scroll;
+    resize: none;
+    border-top: #3D3D3B 3px solid;
+    border-left: #6A6A6A 3px solid;
+}
+input[type="radio"] 
+{
+    margin-left: 0.5em;
+    padding: 6px;
+}
+
+.buttons
+{
+    margin-top: 8px;
+}
+
+.buttons input 
+{ 
+    background-color: #d4d0c8;
+    padding: 6px 31px 2px 28px;
+    border: 2px solid #ccc;
+    border-bottom: #3D3D3D 1px solid;
+    border-right: #6A6A6A 1px solid;
+    margin-bottom: 10px;
+}
+
