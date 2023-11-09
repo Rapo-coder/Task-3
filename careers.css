@@ -35,8 +35,16 @@
 {
     background-color: #FF9900;
     color:black;
-    border-left:4px solid #FFFFFF;
+    border-left:2px solid #FFFFFF;
 
+}
+.active{
+  background-color: #FF9900;
+  border-left: #FFF solid 4px;
+  background-clip: padding-box;
+}
+.active a{
+  color: #000000;
 }
 
 .navbar ul li

@@ -29,39 +29,32 @@ function displayGreeting()
         }
     }    
 }
-document.getElementsByClassName("side").innerHTML="Name is Required";
-function validateForm() {
 
-    const requiredFields = ["name", "email", "organization"];
-    let missingFields = [];
-    var c=1;
-    for (const fieldId of requiredFields) {
-        const fieldValue = document.getElementById(fieldId).value;
-        console.log(fieldId);
-       
-        if (fieldValue.trim() === "") {
-            missingFields.push(fieldId);
-           document.getElementById(c).innerHTML="Name is Required";
-           c+=1;
-        }
-        else{document.getElementById(c).innerHTML="*";
-              c+=1;}
-        
-        
-    }
- 
-    if (missingFields.length > 0) {
-        alert("Please fill all the required fields below");
-        return;
-    }
 
-    const email = document.getElementById("email").value;
-    const emailRegex = /^\S+@\S+\.\S+$/;
-    if (!email.match(emailRegex)) {
-        alert("Invalid Email Address");
-        return;
-    }
+let nameInput = document.getElementById("name");
+let emailInput = document.getElementById("email");
+let organizationInput = document.getElementById("organization");
 
-    alert("Thanks for submitting");
+function clearError(input, errorField) {
+  errorField.innerHTML = "";
 }
+function showError(input, errorField) {
+  if (input.value.trim() === "") {
+errorField.innerHTML = `${input.id.charAt(0).toUpperCase() + input.id.slice(1)} is Required`;
+  }
+}
+
+nameInput.addEventListener("input", () => {
+  let errorField = document.getElementById("name-error");
+  errorField.innerHTML = "";
+});
  
+emailInput.addEventListener("input", () => {
+  let errorField = document.getElementById("email-error");
+  errorField.innerHTML = "";
+});
+ 
+organizationInput.addEventListener("input", () => {
+  let errorField = document.getElementById("organization-error");
+  errorField.innerHTML = "";
+});

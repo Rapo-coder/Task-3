@@ -31,12 +31,20 @@
     color:#FFFFFF;
 }
 
-.navbar-items ul li:hover
+.navbar-items ul li a:hover
 {
     background-color: #FF9900;
     color:black;
-    border-left:4px solid #FFFFFF;
+    border-left:2xpx solid #FFFFFF;
 
+}
+.active{
+  background-color: #FF9900;
+  border-left: #FFF solid 4px;
+  background-clip: padding-box;
+}
+.active a{
+  color: #000000;
 }
 
 .navbar ul li
@@ -146,4 +154,6 @@ input[type="radio"]
     border-right: #6A6A6A 1px solid;
     margin-bottom: 10px;
 }
+
+
 

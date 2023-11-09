@@ -16,21 +16,25 @@
                         <li><a href="home.html">HOME</a></li>
                         <li><a href="#">SERVICES</a></li>
                         <li><a href="careers.html">CAREERS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li class="contact active"><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
-                <form id="contactForm" class="form" onsubmit="validateForm()" >
+            <div id="success-message" style="display: none;">Submit successfully
+            </div>
+                <form id="contactForm" class="form"  >
                     <div class="form-fields Name">
                         <label for="name">My Name</label>
                         <input type="text" id="name" class="name" required>
-                        <span id="1">*</span> 
+                        <span class="required">*</span> 
+                        <span class="error-message" id="name-error">Name is required</span>
                     </div>
         
                     <div class="form-fields Email" >
                         <label for="email">My Email Address:</label>
                         <input type="email" id="email" class="email" required>
-                        <span id="2">*</span> 
+                        <span class="required">*</span>
+                        <span class="error-message" id="email-error">Emial id ie required</span> 
                     </div>
                     
                     <div class="form-fields Telephone">
@@ -41,7 +45,8 @@
                     <div class="form-fields Organaixation">
                         <label for="organization">My Organisation Name:</label>
                         <input type="text" id="organization" class="organization">
-                        <span id="3">*</span> 
+                        <span class="required">*</span>
+                        <span class="error-message" id="organization-error">Organization name is required</span> 
                     </div>
 
                     <div class="form-fields city">
@@ -106,7 +111,7 @@
                     </div>
 
                     <div class="buttons">
-                        <input type="submit" onclick="validateForm()" value="sendMessage"> 
+                        <input type="submit" value="sendMessage" onclick="sendmessage()"> 
                         <input type="reset"  onclick="clear()" value="clear">
                     </div>
                 </form>
@@ -116,3 +121,4 @@
 </html>
 
    
+
