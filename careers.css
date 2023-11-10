@@ -35,12 +35,12 @@
 {
     background-color: #FF9900;
     color:black;
-    border-left:2px solid #FFFFFF;
+
 
 }
 .active{
   background-color: #FF9900;
-  border-left: #FFF solid 4px;
+  border-left: #FFF solid 3px;
   background-clip: padding-box;
 }
 .active a{

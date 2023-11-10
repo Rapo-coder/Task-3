@@ -44,17 +44,20 @@ errorField.innerHTML = `${input.id.charAt(0).toUpperCase() + input.id.slice(1)} 
   }
 }
 
-nameInput.addEventListener("input", () => {
+nameInput.oninput= function()
+{
   let errorField = document.getElementById("name-error");
   errorField.innerHTML = "";
-});
+}
  
-emailInput.addEventListener("input", () => {
+emailInput.oninput = function()
+{
   let errorField = document.getElementById("email-error");
   errorField.innerHTML = "";
-});
+}
  
-organizationInput.addEventListener("input", () => {
+organizationInput.oninput = function() 
+{
   let errorField = document.getElementById("organization-error");
   errorField.innerHTML = "";
-});
+}

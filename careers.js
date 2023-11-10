@@ -1,15 +1,18 @@
 window.onload = function () {
     var fileupload = document.getElementById("FileUpload1");
     var button = document.getElementById("btnFileUpload");
-    button.onclick = function () 
-    {
-        fileupload.click();
-    };
-    
-};
+    var inputField = document.getElementById('resume');
 
-//submit successfully
-function myFunction() 
-{
-    alert("submitted successfully");
-}
+    button.onclick = function () {
+    fileupload.click();
+    };
+
+    fileupload.onchange = function () {
+      inputField.value = fileupload.files[0].name;
+    };
+  };
+ 
+  // Submit success function
+  function myFunction() {
+    alert("Submitted successfully");
+  }
