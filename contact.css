@@ -58,7 +58,7 @@
     text-decoration: none;
     padding: 10px 21px 10px 21px;
 } 
-.logo-section 
+.logo
 { 
   display: flex; 
   justify-content: space-between; 
@@ -67,11 +67,12 @@
   margin-right: 30px; 
 } 
 
- .logo-section .logo img 
+ .logo img 
  { 
   width: 25px; 
-  margin: 0 61em; 
-  padding-top: 2px; } 
+  margin: 0px 0px 0px 61em;
+  padding-top: 2px; 
+} 
 
 span{
     color: red;

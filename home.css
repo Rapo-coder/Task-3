@@ -56,6 +56,22 @@
     padding: 10px 21px 10px 21px;
 } 
 
+.logo
+{ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-direction:row; 
+  margin-right: 30px; 
+} 
+
+ .logo img 
+ { 
+  width: 25px; 
+  margin: 0px 0px 0px 61em;
+  padding-top: 2px; 
+} 
+
 .news
 {
     border: 2px solid #D2D2D2;
