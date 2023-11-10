@@ -58,6 +58,20 @@
     text-decoration: none;
     padding: 10px 21px 10px 21px;
 } 
+.logo-section 
+{ 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-direction:row; 
+  margin-right: 30px; 
+} 
+
+ .logo-section .logo img 
+ { 
+  width: 25px; 
+  margin: 0 61em; 
+  padding-top: 2px; } 
 
 span{
     color: red;
